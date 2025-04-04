@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Meal Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weekly Meal Planner</h1>
+        <label for="diet">Select your dietary preference:</label>
+        <select id="diet">
+            <option value="none">None</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+            <option value="glutenFree">Gluten-Free</option>
+            <option value="proteinDiet">Protein Diet</option>
+            <option value="carbDiet">Carb Diet</option>
+            <option value="lowCarb">Low-Carb</option>
+            <option value="keto">Keto</option>
+            <option value="paleo">Paleo</option>
+            <option value="mediterranean">Mediterranean</option>
+        </select>
+        <button id="generate">Generate Meal Plan</button>
+        <div id="meal-plan" class="meal-plan"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
