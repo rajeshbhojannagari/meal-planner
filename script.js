@@ -195,7 +195,7 @@ const meals = {
 document.getElementById('generate').addEventListener('click', function() {
     const diet = document.getElementById('diet').value;
     const mealPlanDiv = document.getElementById('meal-plan');
-    mealPlanDiv.innerHTML = ''; // Clear previous meal plan
+    mealPlanDiv.innerHTML = ''; 
 
     if (diet === "none") {
         mealPlanDiv.innerHTML = "<p>Please enter a dietary preference to generate a meal plan.</p>";
